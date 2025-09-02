@@ -14,7 +14,7 @@ Yolov8
     -<your best>.pt
 
 ##### The Key Point: 
-Searching "mask" in models/cycle_gan_model.py
+Searching "mask" in models/mask_gan_model.py
 
 ###### Explanation:
 ###### Generators:
@@ -31,3 +31,4 @@ Searching "mask" in models/cycle_gan_model.py
 
 ### Test Example:
         python test.py --dataroot datasets/PAM_HE_kidney/testB --name PAM_HE_kidney1 --model test --no_dropout
+
