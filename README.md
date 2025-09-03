@@ -9,12 +9,12 @@ datasets
         -trainB
         -testA
         -testB
-Yolov8
-    |
-    -<your best>.pt
 
 ##### The Key Point: 
 Searching "mask" in models/mask_gan_model.py
+
+##### Yolo-seg(not key)
+You need to train your yolo pth files.
 
 ###### Explanation:
 ###### Generators:
@@ -31,4 +31,5 @@ Searching "mask" in models/mask_gan_model.py
 
 ### Test Example:
         python test.py --dataroot datasets/PAM_HE_kidney/testB --name PAM_HE_kidney1 --model test --no_dropout
+
 
