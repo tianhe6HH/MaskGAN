@@ -13,8 +13,8 @@ datasets
 ##### The Key Point: 
 Searching "mask" in models/mask_gan_model.py
 
-##### Yolo-seg(not key)
-You need to train your yolo pth files.
+##### Segment model
+You can train your segment model.
 
 ###### Explanation:
 ###### Generators:
@@ -31,5 +31,4 @@ You need to train your yolo pth files.
 
 ### Test Example:
         python test.py --dataroot datasets/PAM_HE_kidney/testB --name PAM_HE_kidney1 --model test --no_dropout
-
 
